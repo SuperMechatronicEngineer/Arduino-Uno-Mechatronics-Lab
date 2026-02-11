@@ -1,41 +1,29 @@
-# Prerequisites
-*.d
+# --- PRIVATE ASSETS ---
+video/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# --- VS CODE SPECIFIC ---
+.vscode/
+.history/
+*.code-workspace
 
-# Precompiled Headers
-*.gch
-*.pch
+# --- ARDUINO UNO R4 & IDE ---
+build/
+bin/
+*.hex
+*.elf
+*.bin
+*.map
+*.dfu
+*.lst
 
-# Linker files
-*.ilk
+# --- OPERATING SYSTEM ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
 
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# --- OTHERS ---
+# Eventuali file di log o pacchetti scaricati
+*.log
+node_modules/
