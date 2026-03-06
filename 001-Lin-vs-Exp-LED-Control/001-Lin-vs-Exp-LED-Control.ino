@@ -1,13 +1,16 @@
 /*
  * Project:     Linear vs. Exponential LED PWM Control
+ * Date:        2026-02-11
+ * Revision:    1.1 - Improved Version
  * Description: A comparative study between Linear Scaling and 
  *              Base-2 Exponential Mapping. 
  *              10-bit Input Resolution mapped to 8-bit PWM Output.
  * Hardware:    Pin 10: Linear Output | Pin 11: Exponential Output
  * Formulas:    Exponential Y = (2^(x / 127.875)) - 1
  *              Linear Y = (255 / 1023) * x  
- * Revision:    1.1 - Improved Version
- * Date:        2026-02-11
+ * Author: SuperMechatronicEngineer
+ * License: CC BY-NC-SA 4.0
+ * See README.md for full technical documentation.
  */
 
 const int LED_EXPONENTIAL = 11; 

@@ -1,8 +1,7 @@
-# LED Control: Linear Scaling vs. Base-2 Exponential LED Control
+# Project 01: LED Control: Linear Scaling vs Base-2 Exponential LED Control
 
 ## Project Info
-- **Project Name:** LED Control: Linear Scaling vs. Base-2 Exponential
-- **Category:** Comparative Study (Visual Perception & Mathematical Mapping)
+- **Project Name:** LED Control: Linear Scaling vs Base-2 Exponential
 - **Revision:** 1.1 (Improved Version)
 - **Date:** 2026-02-11
 - **Author:** SuperMechatronicEngineer
