@@ -23,6 +23,7 @@ These experiments represent specific technical milestones in my learning path.
 | :---: | :--- | :--- | :---: |
 | 001 | [📁 Linear vs Exp LED](./001-Lin-vs-Exp-LED-Control/) | Mastering PWM duty cycles and Human Eye perception (Logarithmic mapping). | ✅ |
 | 002 | [📁 Dynamic Name System](./002-String-Array/) | Handling unknown data quantities at runtime and protecting the Serial buffer. | ✅ |
+| 003 | [📁 Asynchronous LED Controller](./003-Asyncro-LED-controller/) | Implementing a non-blocking multitasking architecture for independent LED control. | ✅ |
 | ... | ... | ... | ... |
 
 ### 🔑 Legend
