@@ -24,7 +24,8 @@ These experiments represent specific technical milestones in my learning path.
 | 001 | [📁 Linear vs Exp LED](./001-Lin-vs-Exp-LED-Control/) | Mastering PWM duty cycles and Human Eye perception (Logarithmic mapping). | ✅ |
 | 002 | [📁 Dynamic Name System](./002-String-Array/) | Handling unknown data quantities at runtime and protecting the Serial buffer. | ✅ |
 | 003 | [📁 Asynchronous LED Controller](./003-Asyncro-LED-controller/) | Implementing a non-blocking multitasking architecture for independent LED control. | ✅ |
-| 004 | [📁 Hardware Interrupt](./004-HW-Interrupt/) | Hardware-Level Preemption by decoupling a low-priority blocking task from a high-priority asynchronous event via ISR. | ✅ |
+| 004 | [📁 Hardware Interrupt](./004-HW-Interrupt/) | Hardware-Level Event Management: overriding Blocking Delays with Arduino Uno R4 Interrupts. | ✅ |
+| 005 | [📁 Dual Hardware Interrupt](./005-HW-Interrupt-2/) | Hardware-Level Event Management: decoupling high-priority asynchronous triggers from the main execution flow via Dual-ISR architecture. | ✅ |
 | ... | ... | ... | ... |
 
 ### 🔑 Legend
