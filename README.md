@@ -26,6 +26,7 @@ These experiments represent specific technical milestones in my learning path.
 | 003 | [📁 Asynchronous LED Controller](./003-Asyncro-LED-controller/) | Implementing a non-blocking multitasking architecture for independent LED control. | ✅ |
 | 004 | [📁 Hardware Interrupt](./004-HW-Interrupt/) | Hardware-Level Event Management: overriding Blocking Delays with Arduino Uno R4 Interrupts. | ✅ |
 | 005 | [📁 Dual Hardware Interrupt](./005-HW-Interrupt-2/) | Hardware-Level Event Management: decoupling high-priority asynchronous triggers from the main execution flow via Dual-ISR architecture. | ✅ |
+| 006 | [📁 28BYJ-48 Stepper Motor](./006-Unipolar-Stepper-Motor/) | Asynchronous Motion Control: decoupling deterministic motor stepping from sequential program flow via Object-Oriented State Machine architecture. | ✅ |
 | ... | ... | ... | ... |
 
 ### 🔑 Legend
