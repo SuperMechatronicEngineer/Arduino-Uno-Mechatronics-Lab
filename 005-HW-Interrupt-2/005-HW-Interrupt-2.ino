@@ -1,23 +1,12 @@
-/* * PROJECT: Dual-Interrupt System (Counting & Reset)
+/* 
+ * PROJECT: Dual-Interrupt System (Counting & Reset)
  * DATE: 2026-03-26
- * AUTHOR: SuperMechatronicEngineer
  * REVISION: 2.0 - Optimized for Arduino Uno R4
  * * DESCRIPTION:
  * This program demonstrates high-priority event handling using multiple Hardware Interrupts.
  * It bypasses standard loop execution to ensure zero-latency response for UI elements.
- * * KEY FEATURES:
- * 1. MULTI-INTERRUPT ARCHITECTURE: 
- * - Pin 8: Increments a 16-bit counter and toggles a Status LED.
- * - Pin 3: Triggers an immediate System Reset (Counter to 0, LED to OFF).
- * 2. ARCHITECTURAL OPTIMIZATION: 
- * - Uses 'stdint.h' for fixed-width integers (uint8_t, uint16_t, uint32_t).
- * 3. HIGH-SPEED TELEMETRY: 
- * - Communicates at 115200 Baud with F() macro optimization to preserve 
- * SRAM and reduce serial latency.
- * 4. ROBUST DEBOUNCING: 
- * - Non-blocking software filter implemented within the ISR to eliminate 
- * mechanical contact noise without stalling the CPU.
- * * LICENSE: CC BY-NC-SA 4.0
+ * AUTHOR: SuperMechatronicEngineer
+ * LICENSE: CC BY-NC-SA 4.0
  * See README.md for full technical documentation and circuit schematics.
  */
 

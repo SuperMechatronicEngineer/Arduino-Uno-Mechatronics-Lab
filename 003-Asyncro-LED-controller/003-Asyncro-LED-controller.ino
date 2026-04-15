@@ -1,18 +1,14 @@
 /*
  * Project: Dual-Rate Asynchronous LED Controller
  * Date: 2026-03-15
- * Author: SuperMechatronicEngineer
  * Revision: 1.1 - Non-Blocking Multitasking
  * * DESCRIPTION:
  * This program implements a multitasking architecture that allows multiple 
  * independent processes to run simultaneously on the Arduino UNO R4. 
  * By replacing the restrictive delay() function with a time-differential 
  * logic based on millis(), the system achieves a "Zero-Latency" execution.
- * * KEY FEATURES:
- * 1. Independent Timers: Each LED operates on its own temporal thread.
- * 2. Non-Blocking Flow: The CPU remains free for real-time tasks between events.
- * 3. Overflow Safety: Uses uint32_t arithmetic to handle the 50-day rollover.
- * * License: CC BY-NC-SA 4.0
+ * Author: SuperMechatronicEngineer
+ * License: CC BY-NC-SA 4.0
  * See README.md for full technical documentation.
  */
 

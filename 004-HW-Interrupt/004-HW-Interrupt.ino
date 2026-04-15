@@ -1,18 +1,11 @@
 /* PROJECT: Interrupt-Based Preemption over Blocking Tasks
  * DATE: 2026-03-24
- * AUTHOR: SuperMechatronicEngineer
  * REVISION: 1.1 - Final Version for Arduino Uno R4
  * DESCRIPTION:
  * This program demonstrates why Interrupts are essential in real-time embedded systems.
  * 1. STATUS LED: Blinks slowly using a blocking delay(2000) to simulate a heavy CPU task.
  * 2. USER LED: Toggled via a Hardware Interrupt (ISR) to show immediate responsiveness.
- * KEY FEATURES:
- * 1. CPU Preemption: The ISR "preempts" (interrupts) the blocking delay(), allowing 
- * instant interaction even when the main loop is frozen.
- * 2. Software Debouncing: Implements a time-delta check within the ISR to filter 
- * mechanical switch noise without using prohibited delay() functions.
- * 3. Volatile Memory Integrity: Ensures data consistency between the ISR and 
- * main memory using the 'volatile' qualifier for shared variables.
+
  * LICENSE: CC BY-NC-SA 4.0
  * See README.md for full technical documentation and circuit schematics.
  */

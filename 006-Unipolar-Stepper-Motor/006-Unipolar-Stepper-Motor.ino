@@ -1,9 +1,14 @@
 /*
  * Project: Non-blocking State Machine for Unipolar Stepper Motor (28BYJ-48) with ULN2003 Driver
- * Lesson: Arduino Uno R4 WiFi LESSON 49: Arduino Stepper Motor Control
- * Revision: 1.2 - Final Version
- * Note: We use the 28BYJ-48 stepper motor, and the ULN2003 Stepper Motor Driver.
  * Date: 2026-03-30
+ * Revision: 1.2 - Final Version
+ * * DESCRIPTION:
+ * This program is engineered to execute a perpetual, automated cycle of 
+ * bi-directional rotation. The system drives the motor to perform a complete 
+ * 360-degree revolution in a clockwise direction, enters a timed standby 
+ * phase, and subsequently reverses to perform a full 360-degree revolution 
+ * counter-clockwise. This back-and-forth sequence repeats indefinitely, 
+ * making it ideal for applications requiring continuous oscillating motion.
  * Author: SuperMechatronicEngineer
  * License: CC BY-NC-SA 4.0
  * See README.md for full technical documentation.

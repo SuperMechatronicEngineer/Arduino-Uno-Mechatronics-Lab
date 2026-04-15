@@ -27,6 +27,7 @@ These experiments represent specific technical milestones in my learning path.
 | 004 | [📁 Hardware Interrupt](./004-HW-Interrupt/) | Hardware-Level Event Management: overriding Blocking Delays with Arduino Uno R4 Interrupts. | ✅ |
 | 005 | [📁 Dual Hardware Interrupt](./005-HW-Interrupt-2/) | Hardware-Level Event Management: decoupling high-priority asynchronous triggers from the main execution flow via Dual-ISR architecture. | ✅ |
 | 006 | [📁 28BYJ-48 Stepper Motor](./006-Unipolar-Stepper-Motor/) | Asynchronous Motion Control: decoupling deterministic motor stepping from sequential program flow via Object-Oriented State Machine architecture. | ✅ |
+| 007 | [📁 I2C Bus Scanner](./007-I2C-Scanner/) | This program continuously scans the I2C bus, detects active device addresses, and reports both normal NACK responses and critical bus‑level errors. | ✅ |
 | ... | ... | ... | ... |
 
 ### 🔑 Legend

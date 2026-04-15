@@ -14,9 +14,9 @@ The firmware uses a simple **C++ Class** to handle the stepping logic and a **St
 ## 📺 Video Documentation
 Comprehensive project documentation is available in two parts on Odysee:
 
-* **Hardware Teardown:** [Inside the 28BYJ-48 Stepper Motor: The 4,096 Step Secret Revealed](https://odysee.com/@SuperMechatronicEngineer:8/006-unipolar-stepper-motor:7)  
+* **Hardware Teardown:** [Inside the 28BYJ-48 Stepper Motor: The 4,096 Step Secret Revealed](https://odysee.com/@SuperMechatronicEngineer:8/006-unipolar-stepper-motor:7)
   *Detailed look at the 32-pole rotor and the gear train (9:32, 11:22, 9:27, 8:24) to explain the 64:1 reduction.*
-* **Project Build & Demo:** [Arduino UNO R4 WiFi - Drive a 28BYJ-48 Stepper Motor with ULN2003a breakout board](https://odysee.com/@SuperMechatronicEngineer:8/006b-unipolar-stepper:6)  
+* **Project Build & Demo:** [Arduino UNO R4 WiFi - Drive a 28BYJ-48 Stepper Motor with ULN2003a breakout board](https://odysee.com/@SuperMechatronicEngineer:8/006b-unipolar-stepper:6)
   *Wiring and real-time functional test.*
 
 ## Technical Details
